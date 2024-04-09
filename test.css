@@ -1,0 +1,299 @@
+*{
+    
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+  
+
+.container{
+    background-image: url(./images/t1.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    padding-top: 3%;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-left: 120px;
+    align-items: center;
+
+}
+ul li{
+   
+    list-style: none;
+    display: inline;
+    margin: 10px 20px;
+}
+.navbar a{text-decoration: none; color: black;}
+.navbar p{font-size: 32px; color: rgb(252, 169, 4);}
+.navbar span{font-size: 20px;color: black;}
+#home{
+    height: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+}
+.title{
+    margin-left: 40%; 
+    color: white;
+    margin-top: 8%;
+}
+.title h1{font-size: 70px;}
+.title span{
+    color:rgb(252, 169, 4) ;
+    font-size: 70px;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.enquiry{
+    
+    position: absolute;
+    margin-top: 35% ;
+}
+.enquiry button{
+    background-color: green;
+    border-color: green;
+    padding: 5%;
+}
+.packages{margin-top: 5%;height: 80vh;}
+.packages h1{text-align: center;margin-bottom: 3%;}
+#cards{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.card1{
+    margin: 3%;
+    padding: 10px;
+    text-align: center ;
+    height: 430px;
+    border: 1px solid whitesmoke;
+    position: relative;
+}
+.card1 p{text-align: justify;padding: 5%;}
+.card1 h5{font-size: 18px;
+padding-top: 3%;}
+.card1 button{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    padding: 2%;
+
+}
+.more{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.more button{
+    color: white;
+    background-color: rgb(3, 3, 121);
+    border-color: rgb(3, 3, 121);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+.card1 h4{color: red;}
+.body{padding: 2%;}
+#ktours{ margin-top: 8%;height: 120vh;}
+#ktours h1{
+    color:red;
+    
+    text-align: center;
+    margin-bottom: 3%;
+    position: absolute;
+    padding-bottom : 2%;
+}
+.kerala{
+    height: 50%;
+    background-image: url(./images/t6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.kerala p{
+    margin-top: 2%;
+    width: 30%;
+    text-align: justify;
+    position: absolute;
+}
+.kerala button{
+    position: absolute;
+    margin-top: 15%;
+    color: white;
+    background-color: rgb(72, 161, 212);
+    border-color: rgb(72, 161, 212);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+#ktours img{
+    margin-left: 5%;
+}
+#ktours iframe{
+    margin-left: 5%;
+}
+
+.north{
+    margin-top: 5%;
+}
+.north h1{text-align: center;}
+.images{
+    margin-top: 2%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.card2{
+    padding: 4%;
+    border: 1px solid whitesmoke;
+}
+.premium{
+    margin-top: 5%;
+}
+.premium h1{text-align: center;}
+.support{
+    margin-top: 2%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+}
+.card3{
+    height: 200px;
+    margin: 2%;
+    padding: 4%;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 8%;
+    text-align: center;
+    position: relative;
+
+}
+.card3 img{
+    margin-top: 2px;
+    border-radius: 50%;
+    
+}
+.card3 h3{
+    padding-top: 5%;
+    text-align: center;
+    margin-top: 0px;
+}
+.card3 a{
+    padding-bottom: 2%;
+    text-decoration: none;
+    color: violet;
+}
+.img{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+}
+.customer{
+    margin-top: 5%;
+    background-color: whitesmoke;
+    height: 60vh;
+}
+.customer h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Tac One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: blue;
+}
+.review{
+    margin-top: 1%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+}
+.card4{
+    
+    margin: 0px;
+    padding: 2%;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    
+    text-align: center;
+    position: relative;
+
+}
+.card4 h4{
+    padding-top: 5%;
+    text-align: center;
+    margin-top: 0px;
+}
+.card4 p{
+    text-align: justify;
+    
+    padding: 7%;
+    
+}
+footer{
+    padding-top: 5%;
+    background-color: rgb(3, 3, 64);
+    color: white;
+}
+.foot{
+    padding: 15px 5px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.icon-list{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px;
+    border-radius: 50%;
+    
+}
+.down{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.foot h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+.about-us{
+    padding-left: 5%;
+}
+.explore{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.explores{padding-right: 5%;}
